@@ -1,0 +1,95 @@
+BODY{
+	background-color: #cccccc;
+	font-family: verdana;
+	font-size: 11;
+	color: #000000;
+	background-attachment: fixed;
+	background-image: url(inc/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0;
+	margin-top: 15;
+	margin-bottom: 15;
+	scrollbar-track-color: #cccccc;
+	scrollbar-shadow-color: #cccccc;
+	scrollbar-highlight-color: #cccccc;
+	scrollbar-3dlight-color: #cccccc;
+	scrollbar-base-color:  #cccccc;
+	scrollbar-arrow-color: #000000;
+	scrollbar-darkshadow-color: #cccccc;	
+	scrollbar-face-color: #999999;
+	}
+
+TABLE	{
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 11;
+	color: #000000; 
+	}
+
+img	{
+	border-width: 0px;
+	}
+
+A	{
+	color: #660099; 
+	text-decoration: none; 
+	}
+
+A:HOVER	{
+	color : #ff6633;
+	}
+
+H1 {
+	font-family: verdana;
+	font-size: 14;
+	color: #660099; 
+	text-decoration: none; 
+	font-weight: bold;
+	}
+
+.button	{
+	font-family: verdana;
+	font-size: 11;
+	color: #660099;
+	background-color: #ff6633;
+	border-color: #660099;
+	border-style: solid;
+	border-width: 1px;
+	scrollbar-track-color: #ff6633;
+	scrollbar-shadow-color: #ff6633;
+	scrollbar-highlight-color: #ff6633;
+	scrollbar-3dlight-color: #ff0033;
+	scrollbar-base-color:  #ff6633;
+	scrollbar-arrow-color: #ff0033;
+	scrollbar-darkshadow-color: #ff3333;	
+	scrollbar-face-color: #ff6633;
+	}
+
+.logtitel	{
+	font-weight: bold;
+	font-size: 12;
+	color: #660099; 
+	padding: 5;
+	padding-left: 0;
+	}
+
+.logdatum	{
+	font-size: 9;
+	text-align: right;
+	font-style: italic;
+	color: #000000;
+	padding: 5;
+	padding-right: 0;
+	}
+
+.logbericht	{
+	padding-top: 5;
+	}
+
+.logreageren	{
+	text-align: right;
+	background-color: #ffffff;
+	color: #ffffff;
+	padding: 5;
+	}

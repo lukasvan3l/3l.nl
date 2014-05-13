@@ -1,0 +1,77 @@
+BODY {
+	font-family: verdana;
+	font-size: 11;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 0;
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-base-color:  #FFFFFF;
+	scrollbar-arrow-color: #000000;
+	scrollbar-darkshadow-color: #FFFFFF;	
+	scrollbar-face-color: #999999;
+	}
+	
+#divje {
+	height: 309px;
+	width: 510px;
+	overflow: auto;
+	font-family: verdana;
+	font-size: 11;
+	color: #000000;
+	margin: 0;
+	background-color: #FFFFFF;
+	background-image: url(inc/background2.gif);
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-shadow-color: #ff6699;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-base-color:  #FFFFFF;
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-darkshadow-color: #FFFFFF;	
+	scrollbar-face-color: #ff6699;
+	}
+
+TABLE	{
+	font-family: verdana;
+	font-size: 11;
+	color: #000000; 
+	text-decoration: none; 
+	}
+
+img	{
+	border-color: #000000;
+	border-style: solid;
+	border-width: 0px;
+	}
+
+A	{
+	font-family: verdana;
+	font-size: 11;
+	color: #000000; 
+	text-decoration: none; 
+	font-weight: bold;
+	}
+
+A:HOVER {
+	color : #660099;
+	text-decoration: underline;
+	}
+
+.head, h1 {
+	font-family: verdana;
+	font-size: 12;
+	color: #000000; 
+	text-decoration: underline; 
+	font-weight: bold;
+	}
+
+.head2, h2 {
+	font-family: verdana;
+	font-size: 11;
+	color: #000000; 
+	text-decoration: none; 
+	font-weight: bold;
+	}

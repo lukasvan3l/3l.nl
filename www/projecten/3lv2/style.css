@@ -1,0 +1,64 @@
+BODY{
+	font-family: verdana;
+	font-size: 11;
+	color: #000000;
+	background-color: #cccccc;
+	background-image: url(img/img_main.jpg);
+	background-attachment: fixed;
+	margin-left: 0;
+	margin-right: 30;
+	overflow-x:hidden; 
+	scrollbar-track-color: #cccccc;
+	scrollbar-shadow-color: #cccccc;
+	scrollbar-highlight-color: #cccccc;
+	scrollbar-3dlight-color: #cccccc;
+	scrollbar-base-color:  #cccccc;
+	scrollbar-arrow-color: #000000;
+	scrollbar-darkshadow-color: #cccccc;	
+	scrollbar-face-color: #999999;
+	}
+
+TABLE	{
+	font-family: verdana;
+	font-size: 11;
+	color: #000000; 
+	text-decoration: none; 
+	}
+
+img	{
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	}
+
+A	{
+	font-family:verdana;
+	font-size:11;
+	color: #333333; 
+	text-decoration: none; 
+	font-weight: bold;
+	}
+
+A:HOVER {
+	color : #660099;
+	}
+
+.head {
+	font-family:verdana;
+	font-size:12;
+	color: #000000; 
+	text-decoration: none; 
+	font-weight: bold;
+	}
+
+.button 
+	{
+	font-family: verdana;
+	font-size: 11;
+	color: #000000; 
+	text-decoration: none; 
+	background-color: cccccc;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	}

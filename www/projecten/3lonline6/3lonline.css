@@ -1,0 +1,49 @@
+.Main {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	background-attachment: fixed;
+	background-image:  url(img/background.jpg);
+	background-repeat: no-repeat;
+}
+.Nieuwsdatum {
+	font-family: Arial;
+	font-size: 12px;
+	font-style: italic;
+	color: #FF0000;
+	text-align: left;
+	vertical-align: middle;
+	border: thin #000066;
+
+}
+.Text {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	text-align: justify;
+
+}
+.Nieuwslink {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000066;
+	text-align: right;
+	vertical-align: middle;
+	border: thin #000066;
+	cursor: hand;
+
+
+}
+.Cursorhand {
+	cursor: hand;
+}
+.Kopje {
+	font-family: Arial;
+	font-size: 12px;
+	text-align: right;
+}
+.Start {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}

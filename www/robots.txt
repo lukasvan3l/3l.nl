@@ -1,0 +1,11 @@
+# /robots.txt file van Interpulse Automatisering B.V.
+
+User-agent: *
+Disallow: /admin/
+Disallow: /inc/
+Disallow: /hester/
+Disallow: /meuk/
+Disallow: /stats/
+Disallow: /browserdetectie/
+
+

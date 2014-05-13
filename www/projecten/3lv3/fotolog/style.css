@@ -1,0 +1,59 @@
+BODY{
+	font-family: verdana;
+	font-size: 11;
+	color: #cccccc;
+	background-color: #000000;
+	margin: 0;
+	overflow-x:hidden; 
+	scrollbar-track-color: #000000;
+	scrollbar-shadow-color: #000000;
+	scrollbar-highlight-color: #000000;
+	scrollbar-3dlight-color: #666666;
+	scrollbar-base-color:  #000000;
+	scrollbar-arrow-color: #666666;
+	scrollbar-darkshadow-color: #000000;	
+	scrollbar-face-color: #000000;
+	}
+
+TABLE	{
+	font-family: verdana;
+	font-size: 11;
+	color: #cccccc; 
+	text-decoration: none; 
+	}
+
+img	{
+	border-width: 0px;
+	}
+
+A	{
+	font-family:verdana;
+	font-size:11;
+	color: #999999; 
+	text-decoration: none; 
+	font-weight: bold;
+	}
+
+A:HOVER {
+	color : #ffffff;
+	}
+
+H1 {
+	font-family: verdana;
+	font-size: 12;
+	color: #ffffff; 
+	text-decoration: none; 
+	font-weight: bold;
+	}
+
+.button 
+	{
+	font-family: verdana;
+	font-size: 11;
+	color: #cccccc; 
+	text-decoration: none; 
+	background-color: #000000;
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: 1px;
+	}

@@ -1,0 +1,38 @@
+BODY{
+	font-family: arial;
+	font-size: 12;
+	color: #006633;
+	background-color: #ffcc00;
+	margin-left: 0;
+	background-image:  url(img/back_navigation.jpg);
+	background-position: right;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	overflow-x:hidden; 
+	scrollbar-track-color: #006633;
+	scrollbar-shadow-color: #006633;
+	scrollbar-highlight-color: #006633;
+	scrollbar-3dlight-color: #cccc33;
+	scrollbar-base-color:  #006633;
+	scrollbar-arrow-color: #cccc33;
+	scrollbar-darkshadow-color:#cccc33;	
+	scrollbar-face-color: #006633;
+	}
+
+img	{
+	border-width: 0px;
+	}
+
+A	{
+	font-size: 12;
+	color: #006633; 
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+.head {
+	font-size: 13;
+	color: #006633; 
+	text-decoration: underline; 
+	font-weight: bold;
+	}

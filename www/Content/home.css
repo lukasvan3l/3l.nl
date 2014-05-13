@@ -1,0 +1,192 @@
+﻿/* startup */
+html
+{
+  overflow:scroll;
+  overflow-x:hidden;
+}
+body
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial;
+  font-size: 13px;
+  position:relative;
+  text-align: center;
+}
+h1
+{
+  margin: 0;
+}
+h3
+{
+  font-size: 13px;
+  margin: 4px 7px;
+}
+
+/* articles */
+#articles
+{
+  width: 530px;
+  margin: 0 auto 20px auto;
+  text-align: left;
+}
+.article
+{
+  margin: 15px 0;
+  padding: 0 1px 1px 1px;
+  position:relative;
+  -moz-border-radius:5px 5px 5px 5px;
+  -moz-box-shadow:0 1px 1px #E3E5EB;
+  border:1px solid #BBBBBB;
+  overflow:hidden;
+}
+
+/* article content */
+.body
+{
+  margin-bottom:15px;
+  line-height: 150%;
+  color:#333;
+  padding: 4px 7px;
+}
+.body a
+{
+  color:orange;
+}
+.body a:hover
+{
+  color:#606;
+}
+.metadata
+{
+  text-align:right;
+  background-color: #F3F5FC;
+  color:#999;
+  font-size:80%;
+  padding: 4px 7px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:5px;
+}
+.article-twitter .metadata
+{
+  background: url(/Content/icons/twitter_20.png) #F3F5FC no-repeat 7px 0;
+}
+.article-blog .metadata
+{
+  background: url(/Content/icons/blog.png) #F3F5FC no-repeat 7px 0;
+}
+.article-picasa .metadata
+{
+  background: url(/Content/icons/picasa.gif) #F3F5FC no-repeat 7px 0;
+}
+.article-mhuukas .metadata
+{
+  background: url(/Content/icons/mhuu_20.png) #F3F5FC no-repeat 7px 0;
+}
+.metadata .metadata-text
+{
+  margin: 4px 7px;
+}
+.metadata a:hover
+{
+  color:#999;
+}
+.metadata a:hover
+{
+  color:#639;
+}
+
+.article-mhuukas .body img,
+.article-blog .body img,
+.article-g4g .body img
+{
+  display:block;
+  margin: 0 auto;
+}
+
+
+/* btn */
+.more
+{
+  height: 16px;
+}
+.more-loading
+{
+  background-image: url(/Content/ajax-loader.gif);
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+
+
+/* feeds */
+#feed-selector
+{
+  position:fixed;
+  top:40px;
+  right:4px;
+  line-height: 130%;
+}
+#feed-selector h2
+{
+  text-align:right;
+  color:#ccc;
+  cursor:pointer;
+  padding-right: 20px;
+}
+.feed
+{
+  text-align:right;
+  color:#ccc;
+  cursor:pointer;
+  padding-right: 20px;
+}
+.feed-shown
+{
+  color:#333;
+  background-image: url(/Content/accept.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+
+
+/* picasa */
+.picasa-image
+{
+  float:left;
+  width: 150px;
+  padding: 7px;
+  text-align: center;
+  vertical-align: middle; 
+  margin:0 2px;
+}
+
+
+/* reactions */
+.reactions
+{
+  padding:4px 7px;
+  color: #999999;
+}
+.reactions-header
+{
+  
+}
+.reaction
+{
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed #ccc;
+}
+.reaction-date
+{
+  font-size: 80%;
+  float:right;
+}
+.reaction-user
+{
+  font-weight: bold;
+}

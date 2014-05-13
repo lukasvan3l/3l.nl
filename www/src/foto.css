@@ -1,0 +1,45 @@
+BODY{
+	font-family: arial;
+	font-size: 12;
+	color: #cccc33;
+	background-image:  url(img/back_main.jpg);
+	background-position: left;
+	background-repeat: repeat-y;
+	background-color: #006633;
+	margin-left: 15;
+	background-attachment: fixed;
+	overflow-x:hidden; 
+	scrollbar-track-color: #006633;
+	scrollbar-shadow-color: #006633;
+	scrollbar-highlight-color: #006633;
+	scrollbar-3dlight-color: #cccc33;
+	scrollbar-base-color:  #006633;
+	scrollbar-arrow-color: #cccc33;
+	scrollbar-darkshadow-color:#cccc33;	
+	scrollbar-face-color: #006633;
+	}
+
+TABLE{
+	font-size: 12;
+	}
+
+img	{
+	border-color: #cccc33;
+	border-style: solid;
+	border-width: 1px;
+	cursor: hand;
+	}
+
+A	{
+	font-size: 12;
+	color: #cccc33; 
+	text-decoration: none; 
+	font-weight: bold;
+	}
+
+.head {
+	font-size: 13;
+	color: #ffcc00; 
+	text-decoration: underline; 
+	font-weight: bold;
+	}
