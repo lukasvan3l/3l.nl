@@ -33,8 +33,9 @@ body {
 
 /* Customize container */
 @media (min-width: 768px) {
-  .container {
-    max-width: 730px;
+  .col-lg-6 {
+    width: 50%;
+    float: left;
   }
 }
 .container-narrow > hr {

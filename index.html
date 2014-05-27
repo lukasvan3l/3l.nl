@@ -16,28 +16,22 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Hallo, met Lukas!</h1>
-        <p class="lead">Benieuwd naar mij? Nou, hier een lijstje waar ik allemaal online te vinden ben.</p>
-        <p><a class="btn btn-lg btn-success" href="http://tumblr.3l.nl" role="button">Of ga direct naar het blog!</a></p>
       </div>
 
       <div class="row marketing">
         <div class="col-lg-6">
           <h4><a href="http://tumblr.3l.nl">Persoonlijk blog</a></h4>
           <p>Dagboek style. In bevliegingen schrijf ik veel, dan weer weken (of maanden) niet.</p>
+          <ol id="personalblog"></ol>
 
           <h4><a href="http://developer.3l.nl">Developer blog</a></h4>
           <p>De uitdagingen en technieken die ik bij <a href="http://q42.nl">Q42</a> tegen kom.</p>
+          <ol id="developerblog"></ol>
         </div>
 
         <div class="col-lg-6">
-          <h4><a href="http://nl.linkedin.com/in/lukasvan3l">LinkedIn</a></h4>
-          <p>CV'tje zien? Dat kan hier.</p>
-
-          <h4><a href="http://www.slideshare.net/Lukasvan3L">SlideShare</a></h4>
-          <p>Presentaties die ik gegeven heb!</p>
-
-          <h4><a href="https://www.facebook.com/Lukasvan3L">Facebook</a></h4>
-          <p>Tja... hoort er ook bij.</p>
+          <a class="twitter-timeline" href="https://twitter.com/lukasvan3l" data-widget-id="471364969905156096" data-chrome="nofooter">Tweets by @lukasvan3l</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
 
       </div>
@@ -52,15 +46,15 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-63533-3', '3l.nl');
   ga('send', 'pageview');
-
 </script>
 
 <script>
@@ -79,6 +73,44 @@ $(function() {
   });
 });
 </script>
+
+
+
+<script type="text/javascript" src="http://tumblr.3l.nl/api/read/json"></script>
+<script>
+  var personalblog = tumblr_api_read;
+</script>
+<script type="text/javascript" src="http://developer.3l.nl/api/read/json"></script>
+<script>
+  var developerblog = tumblr_api_read;
+</script>
+<script>
+  $(function() {
+    function showPosts(api, container) {
+      $.each(api.posts, function(i, post) {
+        if (i >= 5) return;
+
+        var li = $(document.createElement('li'));
+        var a = $(document.createElement('a'));
+        a.attr('href', post["url-with-slug"]);
+        if (post["regular-title"] || post["link-text"]) {
+          a.text(post["regular-title"] || post["link-text"]);
+        } else {
+          var txt = $(post["photo-caption"] || post["video-caption"]).first().text();
+          a.text(txt.substr(0, txt.search(/[\.\!]/)+1));
+        }
+        container.append(li.append(a));
+      });
+    }
+
+    showPosts(personalblog, $('#personalblog'));
+    showPosts(developerblog, $('#developerblog'));
+  });
+</script>
+
+
+
+
 
   </body>
 </html>
